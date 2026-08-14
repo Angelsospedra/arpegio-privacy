@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <title>Política de Privacidad · Arpegio</title>
+    <style>
+      :root {
+        --bg: #0e1015;
+        --card: #171a22;
+        --text: #f4f5f7;
+        --muted: #9aa0ac;
+        --accent: #01ffef;
+        --border: rgba(255, 255, 255, 0.09);
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f5f8fb;
+          --card: #ffffff;
+          --text: #1b1e27;
+          --muted: #5b6472;
+          --accent: #0e93aa;
+          --border: rgba(20, 25, 40, 0.1);
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 72px; }
+      header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
+      h1 { font-size: 1.9rem; margin: 0; letter-spacing: -0.01em; }
+      .brand { color: var(--accent); }
+      .updated { color: var(--muted); font-size: 0.85rem; margin: 4px 0 26px; }
+      .toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
+      .toggle button {
+        border: 0; background: transparent; color: var(--muted); font: inherit; font-weight: 600;
+        padding: 7px 16px; cursor: pointer;
+      }
+      .toggle button.active { background: var(--accent); color: #05141a; }
+      .intro { font-size: 1.02rem; margin-bottom: 8px; }
+      h2 { font-size: 1.12rem; margin: 30px 0 8px; }
+      p, li { color: var(--muted); }
+      p { margin: 0 0 4px; }
+      ul { margin: 6px 0; padding-left: 20px; }
+      a { color: var(--accent); }
+      .card {
+        background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+        padding: 26px 26px 30px; margin-top: 22px;
+      }
+      footer { color: var(--muted); font-size: 0.8rem; margin-top: 34px; text-align: center; }
+      [hidden] { display: none; }
+      @media (max-width: 480px) { .wrap { padding: 28px 16px 56px; } h1 { font-size: 1.55rem; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1><span class="brand">Arpegio</span> · <span id="ttl">Política de Privacidad</span></h1>
+        <div class="toggle" role="group" aria-label="Idioma / Language">
+          <button id="btn-es" class="active" onclick="setLang('es')">ES</button>
+          <button id="btn-en" onclick="setLang('en')">EN</button>
+        </div>
+      </header>
+
+      <!-- ================= ESPAÑOL ================= -->
+      <div id="es">
+        <p class="updated">Última actualización: 14 de agosto de 2026</p>
+        <div class="card">
+          <p class="intro">
+            Arpegio es una app de afinador, metrónomo y aprendizaje musical para guitarra y bajo. Funciona
+            íntegramente en tu dispositivo: no tiene servidores propios, no recopila datos personales y no
+            comparte información con terceros. Esta política explica cómo se trata la información al usar la app.
+          </p>
+
+          <h2>1. Responsable del tratamiento</h2>
+          <p>El responsable es Ángel. Para cualquier consulta relativa a esta política o a la privacidad, puede escribir a <a href="mailto:angelsospedramartinez@gmail.com">angelsospedramartinez@gmail.com</a>.</p>
+
+          <h2>2. Datos que no se recopilan</h2>
+          <p>La Aplicación no recopila, almacena ni transmite datos personales. No requiere registro ni cuenta de usuario, y no incorpora herramientas de analítica de terceros, publicidad ni tecnologías de seguimiento.</p>
+
+          <h2>3. Uso del micrófono</h2>
+          <p>La Aplicación solicita acceso al micrófono con dos finalidades: (a) detectar la afinación en tiempo real y (b) grabar audio cuando la persona usuaria lo inicia expresamente. El audio empleado por el afinador se procesa localmente y en tiempo real en el dispositivo; no se almacena ni se envía a ningún servidor. Las grabaciones creadas por la persona usuaria se guardan exclusivamente en el dispositivo y, si esta selecciona una carpeta, se copian a dicha ubicación para su consulta desde el gestor de archivos. En ningún caso se transmiten a través de internet.</p>
+
+          <h2>4. Almacenamiento local</h2>
+          <p>Las grabaciones y las preferencias de configuración (instrumento, idioma, tema, mano dominante, entre otras) se almacenan únicamente en el dispositivo. La persona usuaria puede eliminarlas en cualquier momento desde la propia Aplicación o desde los ajustes del sistema operativo.</p>
+
+          <h2>5. Compras dentro de la aplicación</h2>
+          <p>La versión PRO se adquiere a través de Google Play. El procesamiento del pago corresponde íntegramente a Google; el Desarrollador no recibe ni conserva datos de tarjetas ni información de pago. Se recomienda consultar la <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Política de Privacidad de Google</a>.</p>
+
+          <h2>6. Permisos</h2>
+          <ul>
+            <li><strong>Micrófono:</strong> para la afinación y la grabación de audio.</li>
+            <li><strong>Acceso a almacenamiento o carpeta:</strong> únicamente para guardar las grabaciones en la ubicación elegida por la persona usuaria.</li>
+          </ul>
+
+          <h2>7. Menores de edad</h2>
+          <p>La Aplicación no está dirigida específicamente a menores y no recopila datos personales de ninguna persona, incluidos los menores de edad.</p>
+
+          <h2>8. Derechos de la persona usuaria</h2>
+          <p>Dado que la Aplicación no recopila ni almacena datos personales en servidores del Desarrollador, no existe información personal sobre la que ejercer derechos de acceso, rectificación o supresión ante el Desarrollador. La persona usuaria mantiene en todo momento el control de los datos almacenados localmente en su dispositivo.</p>
+
+          <h2>9. Cambios en esta política</h2>
+          <p>El Desarrollador podrá actualizar esta Política de Privacidad. La versión vigente estará disponible en todo momento dentro de la Aplicación y en esta página. Se recomienda revisarla periódicamente.</p>
+
+          <h2>10. Contacto</h2>
+          <p>Para cualquier cuestión relacionada con la privacidad, puede dirigirse a <a href="mailto:angelsospedramartinez@gmail.com">angelsospedramartinez@gmail.com</a>.</p>
+        </div>
+      </div>
+
+      <!-- ================= ENGLISH ================= -->
+      <div id="en" hidden>
+        <p class="updated">Last updated: 14 August 2026</p>
+        <div class="card">
+          <p class="intro">
+            Arpegio is a tuner, metronome and music-learning app for guitar and bass. It runs entirely on
+            your device: it has no servers of its own, collects no personal data and shares nothing with
+            third parties. This policy explains how information is handled when you use the app.
+          </p>
+
+          <h2>1. Data controller</h2>
+          <p>The controller is Ángel. For any question regarding this policy or your privacy, you may write to <a href="mailto:angelsospedramartinez@gmail.com">angelsospedramartinez@gmail.com</a>.</p>
+
+          <h2>2. Data we do not collect</h2>
+          <p>The App does not collect, store or transmit any personal data. It requires no sign-up or user account, and it includes no third-party analytics, advertising or tracking technologies.</p>
+
+          <h2>3. Use of the microphone</h2>
+          <p>The App requests microphone access for two purposes: (a) to detect pitch in real time and (b) to record audio when the user explicitly starts it. Audio used by the tuner is processed locally and in real time on the device; it is neither stored nor sent to any server. Recordings created by the user are stored solely on the device and, if the user selects a folder, copied to that location so they can be viewed from the file manager. They are never transmitted over the internet.</p>
+
+          <h2>4. Local storage</h2>
+          <p>Recordings and configuration preferences (instrument, language, theme, handedness, among others) are stored only on the device. The user may delete them at any time from within the App or from the operating system settings.</p>
+
+          <h2>5. In-app purchases</h2>
+          <p>The PRO version is purchased through Google Play. Payment processing is handled entirely by Google; the Developer neither receives nor retains any card or payment data. We recommend reviewing <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google’s Privacy Policy</a>.</p>
+
+          <h2>6. Permissions</h2>
+          <ul>
+            <li><strong>Microphone:</strong> for tuning and audio recording.</li>
+            <li><strong>Storage or folder access:</strong> only to save recordings in the location chosen by the user.</li>
+          </ul>
+
+          <h2>7. Children</h2>
+          <p>The App is not specifically directed to children and collects no personal data from anyone, including minors.</p>
+
+          <h2>8. Your rights</h2>
+          <p>Since the App does not collect or store personal data on the Developer’s servers, there is no personal information over which to exercise rights of access, rectification or erasure before the Developer. The user retains full control at all times over data stored locally on their device.</p>
+
+          <h2>9. Changes to this policy</h2>
+          <p>The Developer may update this Privacy Policy. The current version is always available within the App and on this page. We recommend reviewing it periodically.</p>
+
+          <h2>10. Contact</h2>
+          <p>For any privacy-related matter, you may contact <a href="mailto:angelsospedramartinez@gmail.com">angelsospedramartinez@gmail.com</a>.</p>
+        </div>
+      </div>
+
+      <footer>© 2026 Arpegio · Ángel</footer>
+    </div>
+
+    <script>
+      function setLang(lang) {
+        var es = lang === 'es';
+        document.getElementById('es').hidden = !es;
+        document.getElementById('en').hidden = es;
+        document.getElementById('btn-es').classList.toggle('active', es);
+        document.getElementById('btn-en').classList.toggle('active', !es);
+        document.documentElement.lang = lang;
+        document.getElementById('ttl').textContent = es ? 'Política de Privacidad' : 'Privacy Policy';
+      }
+      // Idioma inicial según el navegador
+      if ((navigator.language || 'es').slice(0, 2).toLowerCase() !== 'es') setLang('en');
+    </script>
+  </body>
+</html>
